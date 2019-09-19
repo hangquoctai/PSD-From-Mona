@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="fonts/font-awesome-4.7/css/font-awesome.min.css">
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="./js/index.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.0/slick/slick.css" />
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.0/slick/slick-theme.css" />
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.0/slick/slick.min.js"></script>
+    <link rel="stylesheet" href="css/animate.css">
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+</head>
+
+<body>
+    <div class="header">
+        <div class="header-top">
+            <div class="all hdt-nav">
+                <img class="logo" data-wow-duration='2s' src="img/logo.png" alt="SmartMoney">
+                <div class="hdt-menu">
+                    <ul>
+                        <li class="wow bounceInUp"><a href="./index.html">Trang chủ</a></li>
+                        <li class="wow bounceInUp"><a href="./gioithieu.html">Giới thiệu</a></li>
+                        <li class="wow bounceInUp"><a href="#to-book">Sách</a></li>
+                        <li class="wow bounceInUp"><a href="#to-course">Online</a></li>
+                        <li class="wow bounceInUp"><a href="./sukien.html">Sự kiện</a></li>
+                        <li class="wow bounceInUp"><a href="#to-worlds">Tin tức</a></li>
+                        <li class="wow bounceInUp"><a href="./lienhe.html">Liên hệ</a></li>
+                    </ul>
+                </div>
+                <div class="mini-menu" id="menu-toggle">
+                    <div class="mini-menu-content">
+                        <a href="./index.html"><i class="fa fa-home"></i></a>
+                        <a href="./gioithieu.html"><i class="fa fa-id-card-o"></i></a>
+                        <a href="#to-book"><i class="fa fa-book"></i></a>
+                        <a href="#to-course"><i class="fa fa-globe"></i></a>
+                        <a href="./sukien.html"><i class="fa fa-calendar"></i></a>
+                        <a href="#to-worlds"><i class="fa fa-google"></i></a>
+                        <a href="./lienhe.html"><i class="fa fa-mail-forward"></i></a>
+                    </div>
+                </div>
+                <div class="hambur clear">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                </div>
+                <div class="hdt-search">
+                    <i class="fa fa-search"></i>
+                </div>
+            </div>
+        </div>
+        <!-- End Header-Top -->
+        <div class="header-content">
+            <img src="./img//banner.png" alt="">
+            <div class="hc-band">
+                <p>Khai mở trí tuệ thành công</p>
+                <p>Sứ mệnh nâng tầm người việt trẻ</p>
+            </div>
+        </div>
+    </div>
+    <!-- End Header -->
+    <div class="about">
+        <div class="about-top">
+            <div class="about-content">
+                <h1 class="border-bot wow bounceInDown" data-wow-duration="2s">Về chúng tôi</h1>
+                <h3 class="wow bounceInDown" data-wow-duration="2.5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus ut commodi, harum repellendus iste
+                    est molestias ducimus amet ea voluptatibus saepe aliquam explicabo pariatur debitis animi dolorem
+                    aut quaerat. Quos?</h3>
+                <p class='wow bounceInDown' data-wow-duration="4s">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, distinctio ullam optio minima ducimus
+                    perferendis, quas esse sequi doloribus rerum nostrum ipsam omnis! Atque nihil qui nisi, voluptas
+                    esse molestias.</p>
+                <button class='wow bounceInDown' data-wow-duration="5s">Xem thêm</button>
+            </div>
+            <img src="./img/About-1.png">
+        </div>
+        <div class="about-bot">
+            <div class="abb-content">
+                <h1 class="border-bot">Khóa học & sự kiện</h1>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste ipsum autem consequuntur fuga quisquam
+                    maiores voluptas laborum beatae error. Ipsum, facere exercitationem. Doloribus enim asperiores
+                    aliquam velit dolorem, repellat modi.</p>
+                <button>Mua khóa học</button>
+            </div>
+        </div>
+    </div>
+    <!-- End About -->
+    <div class="books" id="to-book">
+        <div class="book-content all">
+            <h1 class="border-bot">Sách</h1>
+            <ul class="book-slide" id="carousel-book">
+                <li class="book">
+                    <img src="https://via.placeholder.com/180">
+                    <p>Lập trình ngôn ngữ tư duy</p>
+                    <p class="price">120.000đ</p>
+                    <button>Mua ngay</button>
+                </li>
+                <li class="book">
+                    <img src="https://via.placeholder.com/180">
+                    <div class="new">New</div>
+                    <p>Lập trình ngôn ngữ tư duy</p>
+                    <p class="price">120.000đ</p>
+                    <button>Mua ngay</button>
+                </li>
+                <li class="book">
+                    <img src="https://via.placeholder.com/180">
+                    <p>Lập trình ngôn ngữ tư duy</p>
+                    <p class="price">120.000đ</p>
+                    <button>Mua ngay</button>
+                </li>
+                <li class="book">
+                    <img src="https://via.placeholder.com/180">
+                    <div class="new">30%</div>
+                    <p>Lập trình ngôn ngữ tư duy</p>
+                    <p class="price">120.000đ</p>
+                    <button>Mua ngay</button>
+                </li>
+            </ul>
+
+        </div>
+    </div>
+    <!-- End Books -->
+    <div class="course" id="to-course">
+        <div class="course-menu all">
+            <ul>
+                <li>
+                    <img src="img/Icon1.png">
+                    <p>Khoá học</p>
+                </li>
+                <li>
+                    <img src="img/Icon2.png">
+                    <p>Videos</p>
+                </li>
+                <li>
+                    <img src="img/Icon3.png">
+                    <p>Audios</p>
+                </li>
+                <li>
+                    <img src="img/Icon4.png">
+                    <p>Ebooks</p>
+                </li>
+            </ul>
+        </div>
+        <div class="clear"></div>
+    </div>
+    <div class="course-content">
+        <div class="all">
+            <div class="cc-bar">
+                <h1 class="border-bot">Khóa học Online</h1>
+                <ul>
+                    <li><a href="#"><i class="fa fa-eye"></i> Xem nhiều nhất</a></li>
+                    <li><a href="#"><i class="fa fa-eye"></i> Mới nhất</a></li>
+                    <li><a href="#"><i class="fa fa-eye"></i> Được quan tâm</a></li>
+                    <li><a href="#"><i class="fa fa-eye"></i> Miễn phí</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="thumnail all">
+            <div class="thumnail-item">
+                <div class="tnail-i-content">
+                    <img src="./img/01.jpg" alt="">
+                    <p>Những mô thức đột phá thành công - hạnh phúc</p>
+                    <p class="price">500.000đ</p>
+                </div>
+                <div class="tnail-i-user">
+                    <img src="https://via.placeholder.com/40" alt="">
+                    <p>Phương Nguyễn</p>
+                    <p><i class="fa fa-user"></i> 12,340</p>
+                    <p><i class="fa fa-heart"></i> 123</p>
+                </div>
+                <div class="new">30%</div>
+            </div>
+            <div class="thumnail-item">
+                <div class="tnail-i-content">
+                    <img src="./img/02.jpg" alt="">
+                    <p>Những mô thức đột phá thành công - hạnh phúc</p>
+                    <p class="price">500.000đ</p>
+                </div>
+                <div class="tnail-i-user">
+                    <img src="https://via.placeholder.com/40" alt="">
+                    <p>Phương Nguyễn</p>
+                    <p><i class="fa fa-user"></i> 12,340</p>
+                    <p><i class="fa fa-heart"></i> 123</p>
+                </div>
+            </div>
+            <div class="thumnail-item">
+                <div class="tnail-i-content">
+                    <img src="./img/03.jpg" alt="">
+                    <p>Những mô thức đột phá thành công - hạnh phúc</p>
+                    <p class="price">500.000đ</p>
+                </div>
+                <div class="tnail-i-user">
+                    <img src="https://via.placeholder.com/40" alt="">
+                    <p>Phương Nguyễn</p>
+                    <p><i class="fa fa-user"></i> 12,340</p>
+                    <p><i class="fa fa-heart"></i> 123</p>
+                </div>
+                <div class="new">30%</div>
+            </div>
+            <div class="thumnail-item">
+                <div class="tnail-i-content">
+                    <img src="./img/04.jpg" alt="">
+                    <p>Những mô thức đột phá thành công - hạnh phúc</p>
+                    <p class="price">500.000đ</p>
+                </div>
+                <div class="tnail-i-user">
+                    <img src="https://via.placeholder.com/40" alt="">
+                    <p>Phương Nguyễn</p>
+                    <p><i class="fa fa-user"></i> 12,340</p>
+                    <p><i class="fa fa-heart"></i> 123</p>
+                </div>
+                <div class="new">30%</div>
+            </div>
+            <div class="thumnail-item">
+                <div class="tnail-i-content">
+                    <img src="./img/03.jpg" alt="">
+                    <p>Những mô thức đột phá thành công - hạnh phúc</p>
+                    <p class="price">500.000đ</p>
+                </div>
+                <div class="tnail-i-user">
+                    <img src="https://via.placeholder.com/40" alt="">
+                    <p>Phương Nguyễn</p>
+                    <p><i class="fa fa-user"></i> 12,340</p>
+                    <p><i class="fa fa-heart"></i> 123</p>
+                </div>
+            </div>
+            <div class="thumnail-item">
+                <div class="tnail-i-content">
+                    <img src="./img/02.jpg" alt="">
+                    <p>Những mô thức đột phá thành công - hạnh phúc</p>
+                    <p class="price">500.000đ</p>
+                </div>
+                <div class="tnail-i-user">
+                    <img src="https://via.placeholder.com/40" alt="">
+                    <p>Phương Nguyễn</p>
+                    <p><i class="fa fa-user"></i> 12,340</p>
+                    <p><i class="fa fa-heart"></i> 123</p>
+                </div>
+            </div>
+            <div class="thumnail-item">
+                <div class="tnail-i-content">
+                    <img src="./img/04.jpg" alt="">
+                    <p>Những mô thức đột phá thành công - hạnh phúc</p>
+                    <p class="price">500.000đ</p>
+                </div>
+                <div class="tnail-i-user">
+                    <img src="https://via.placeholder.com/40" alt="">
+                    <p>Phương Nguyễn</p>
+                    <p><i class="fa fa-user"></i> 12,340</p>
+                    <p><i class="fa fa-heart"></i> 123</p>
+                </div>
+            </div>
+            <div class="thumnail-item">
+                <div class="tnail-i-content">
+                    <img src="./img/01.jpg" alt="">
+                    <p>Những mô thức đột phá thành công - hạnh phúc</p>
+                    <p class="price">500.000đ</p>
+                </div>
+                <div class="tnail-i-user">
+                    <img src="https://via.placeholder.com/40" alt="">
+                    <p>Phương Nguyễn</p>
+                    <p><i class="fa fa-user"></i> 12,340</p>
+                    <p><i class="fa fa-heart"></i> 123</p>
+                </div>
+            </div>
+        </div>
+        <div class="clear"></div>
+    </div>
+    <!-- End Thumnail -->
+    <div class="offline">
+        <div class="offline-item">
+            <img src="img/Offline.png" alt="">
+            <div class="offline-content">
+                <h1 class="border-bot">Sự kiện Offline</h1>
+                <div class="event">
+                    <div class="date">
+                        <p>15</p>
+                        <p>08</p>
+                    </div>
+                    <div class="event-content">
+                        <div class="time">
+                            <p><a>Free</a>Từ 09:00 đến 12:00</p>
+                        </div>
+                        <h2>Advertiser Embrace Rich Media Format</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus nulla molestias ad libero,
+                            magni ratione minus quibusdam architecto repellat corrupti provident, officia aut aperiam!
+                            Eius laboriosam nemo repudiandae facilis obcaecati.</p>
+                        <h2 class="register">Đăng ký tham gia <span>&rsaquo;</span></h2>
+                    </div>
+                </div>
+                <div class="event">
+                    <div class="date">
+                        <p>15</p>
+                        <p>08</p>
+                    </div>
+                    <div class="event-content">
+                        <div class="time">
+                            <p><a>Free</a>Từ 09:00 đến 12:00</p>
+                        </div>
+                        <h2>Advertiser Embrace Rich Media Format</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus nulla molestias ad libero,
+                            magni ratione minus quibusdam architecto repellat corrupti provident, officia aut aperiam!
+                            Eius laboriosam nemo repudiandae facilis obcaecati.</p>
+                        <h2 class="register">Đăng ký tham gia <span>&rsaquo;</span></h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Office -->
+    <div class="worlds" id="to-worlds">
+        <div class="world all">
+            <h1 class="border-bot all">Tin tức</h1>
+        </div>
+        <div class="world-content all">
+            <div class="world-item">
+                <img src="img/WorldA.jpg" alt="">
+                <div class="event">
+                    <div class="date">
+                        <p>15</p>
+                        <p>08</p>
+                    </div>
+                    <div class="event-content">
+                        <h2>Advertiser Embrace Rich Media Format</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus nulla molestias ad libero,
+                            magni ratione minus quibusdam architecto repellat corrupti provident.</p>
+                        <h2 class="more">Xem chi tiết</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="world-item">
+                <img src="img/WorldB.jpg" alt="">
+                <div class="event">
+                    <div class="date">
+                        <p>15</p>
+                        <p>08</p>
+                    </div>
+                    <div class="event-content">
+                        <h2>Advertiser Embrace Rich Media Format</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus nulla molestias ad libero,
+                            magni ratione minus quibusdam architecto repellat corrupti provident.</p>
+                        <h2 class="more">Xem chi tiết</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="world-item">
+                <img src="img/WorldC.jpg" alt="">
+                <div class="event">
+                    <div class="date">
+                        <p>15</p>
+                        <p>08</p>
+                    </div>
+                    <div class="event-content">
+                        <h2>Advertiser Embrace Rich Media Format</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus nulla molestias ad libero,
+                            magni ratione minus quibusdam architecto repellat corrupti provident.</p>
+                        <h2 class="more">Xem chi tiết</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="world-item ">
+                <img src="img/WorldD.jpg" alt="">
+                <div class="event">
+                    <div class="date">
+                        <p>15</p>
+                        <p>08</p>
+                    </div>
+                    <div class="event-content">
+                        <h2>Advertiser Embrace Rich Media Format</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus nulla molestias ad libero,
+                            magni ratione minus quibusdam architecto repellat corrupti provident.</p>
+                        <h2 class="more">Xem chi tiết</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Offline -->
+    <div class="customer">
+        <div class="customer-content all">
+            <h1 class="border-bot">Cảm nhận của độc giả</h1>
+        </div>
+        <div class="notebook all">
+            <h2>Cảm nhận về sản phẩm sổ tay bán hàng</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, ipsam dolores amet perspiciatis sunt
+                aut atque. Pariatur dolore vero consequuntur blanditiis, saepe ut, nemo obcaecati eum, voluptatum
+                nulla minus tempora!</p>
+        </div>
+        <div class="person">
+            <h2>Nguyễn Duy Khánh</h2>
+            <p>Trưởng nhóm kinh doanh tại Manulife ( Quản lý gần 100 nhân viên )</p>
+        </div>
+    </div>
+    <!-- End Customer -->
+    <div class="footer">
+        <div class="all">
+            <div class="footer-img">
+                <img src="img/Footer.png" alt="">
+            </div>
+            <div class="footer-contact">
+                <div class="footer-content">
+                    <div class="contact">
+                        <h2>Liên hệ</h2>
+                        <p>319 chung cư Thuận Việt, Lý Thường Kiệt, Phường 15, Quận 11, Tp.HCM, Việt Nam</p>
+                        <p>+84 904 456 456</p>
+                        <p>smartmoney@edu.com</p>
+                    </div>
+                    <div class="time-work">
+                        <h2>Thời gian làm việc</h2>
+                        <p>Thứ hai - thứ sáu / 8:00 am - 21:00 pm</p>
+                        <p>Thứ bảy / 09:00 - 12:00</p>
+                        <p>Chủ nhật và ngày lễ nghỉ</p>
+                    </div>
+                </div>
+                <div class="ft-contact">
+                    <h2>Liên kết với chúng tôi</h2>
+                    <div class="mxh">
+                        <button class="btn btn-facebook"><i class="fa fa-facebook"></i> Facebook</button>
+                        <button class="btn btn-google"><i class="fa fa-google"></i> Google</button>
+                        <button class="btn btn-youtube"><i class="fa fa-youtube"></i> Youtube</button>
+                    </div>
+                </div>
+                <p class="mona-media">Designed and Developer by Mona Media</p>
+            </div>
+        </div>
+    </div>
+    <div class="back-to-top" id="btt">
+    </div>
+</body>
+
+</html>
